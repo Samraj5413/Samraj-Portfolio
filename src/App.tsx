@@ -93,7 +93,7 @@ function App() {
               <a href="https://www.linkedin.com/in/sam-raj-69033a24a/" className="hover-scale text-gray-600 hover:text-indigo-600">
                 <Linkedin size={28} />
               </a>
-              <a href="mailto: samraj6083@gmail.com" className="hover-scale text-gray-600 hover:text-indigo-600">
+              <a href="mailto:samraj6083@gmail.com" className="hover-scale text-gray-600 hover:text-indigo-600">
                 <Mail size={28} />
               </a>
             </div>
