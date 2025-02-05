@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, BookOpen, Briefcase, User, Code, Menu, X } from 'lucide-react';
-import profilepic from "./assets/20250205_124955.jpg";
+import profilepic from "./assets/resized-img1.jpg";
 
 
 function App() {
