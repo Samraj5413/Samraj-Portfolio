@@ -124,7 +124,7 @@ function App() {
             <h2 className="text-3xl font-bold text-gradient">Skills</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {['React', 'JavaScript', 'Node.js', 'Express.js','Python', 'Java', 'SQL', 'Git', 'AWS', 'Flask'].map((skill, index) => (
+            {['React','TailwindCSS', 'JavaScript', 'Node.js', 'Express.js','Python', 'Java', 'SQL', 'Git', 'AWS', 'Flask','Firebase'].map((skill, index) => (
               <div 
                 key={skill}
                 className="bg-white/50 backdrop-blur-sm p-6 rounded-xl hover-scale shadow-lg"
@@ -182,6 +182,10 @@ function App() {
                 title: 'Maze Game',
                 description: 'A fun, interactive maze game built using only HTML, CSS, and JavaScript. This full JavaScript-based project allows users to navigate through a randomly generated maze and reach the exit.',
                 link: 'https://github.com/Samraj5413/Maze-Game',
+              },{
+                title: 'To-Do List App',
+                description: 'A simple and interactive To-Do List application built using React.js and TailwindCSS. It allows users to add, edit, and delete tasks, with persistent storage using browser local storage.',
+                link: 'https://github.com/Samraj5413/ToDo-List-App'
               },
             ].map((project, index) => (
               <div 
