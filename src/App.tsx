@@ -186,6 +186,10 @@ function App() {
                 title: 'To-Do List App',
                 description: 'A simple and interactive To-Do List application built using React.js and TailwindCSS. It allows users to add, edit, and delete tasks, with persistent storage using browser local storage.',
                 link: 'https://github.com/Samraj5413/ToDo-List-App'
+              },{
+                title: 'React Calculator',
+                description: 'A simple and responsive calculator built using React.js and TailwindCSS. It supports basic arithmetic operations, percentage calculations, and features a modern dark-themed UI.',
+                link: 'https://github.com/Samraj5413/Calculator-App'
               },
             ].map((project, index) => (
               <div 
