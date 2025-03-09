@@ -124,7 +124,7 @@ function App() {
             <h2 className="text-3xl font-bold text-gradient">Skills</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {['React','TailwindCSS', 'JavaScript', 'Node.js', 'Express.js','Python', 'Java', 'SQL', 'Git', 'AWS', 'Flask','Firebase'].map((skill, index) => (
+            {['React','TailwindCSS', 'JavaScript', 'Node.js', 'Express.js','Python', 'Java', 'SQL', 'Git', 'AWS', 'FastAPI','Firebase'].map((skill, index) => (
               <div 
                 key={skill}
                 className="bg-white/50 backdrop-blur-sm p-6 rounded-xl hover-scale shadow-lg"
